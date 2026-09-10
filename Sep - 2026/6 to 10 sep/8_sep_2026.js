@@ -1,5 +1,6 @@
-// @ solves Acronym Builder problem
+// @problem solves Acronym Builder problem
 // @writer Abaidullah 
+// @public (can be used)
 function buildAcronym(str) {
   const ignore_words = new Set(["a", "for", "an", "and", "by", "of"]);
   const words = str.split(/\s+/);

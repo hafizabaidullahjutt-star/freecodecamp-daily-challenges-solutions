@@ -32,4 +32,4 @@ function tooMuchScreenTime(arr) {
 }
 console.log(tooMuchScreenTime([1, 2, 3, 11, 1, 3, 4]));
 console.log(tooMuchScreenTime([3, 9, 4, 8, 5, 7, 6]));
-console.log(tooMuchScreenTime([1, 2, 3, 4, 5, 6, 7]));
+console.log(tooMuchScreenTime([1, 2, 3, 4, 5, 6, 7])); //false as expected
